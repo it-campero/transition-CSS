@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+/* AJUSTE GENERAL */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* BOTON */
+.btn-tooltip {
+  width: 200px;
+  height: 50px;
+  border: none;
+  position: relative;
+  background: none;
+  border-radius: 10px;
+  font-family: monospace;
+  color: azure;
+  font-size: 1rem;
+}
+/* BOTNO HOVER */
+.btn-tooltip:hover {
+  color: bisque;
+  box-shadow: 0 0 25px rgb(50, 80, 179);
+  border: 1px solid gray;
+  /* color: red; */
+  cursor: pointer;
+  transform: translateY(-5px);
+  /* transform: translateX(80px);*/
+  transition: transform 0.4s;
+}
+/* FONFO DE WEB */
+.flex-video {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  object-fit: cover;
+}
+/*
+
+Correo: matiasrheinze@gmail.com
+GitHub: https://github.com/it-campero
+
+*/
